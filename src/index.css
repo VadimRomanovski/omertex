@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .App{
+  display: flex;
+  flex-direction: column;
+} */
+
+.wrap{
+  border: 15px solid rgb(235, 235, 235);
+}
+
+.forms{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+legend{
+  text-align: left;
+}
+
+input{
+  margin: 10px;
+}
+
+.block{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 50%;
+  height: 83vh;
+  border: 1px solid rgb(156, 156, 156);
+}
+
+/* .ethernet{
+  
+} */
+
+.ethernet__buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ethernet__inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.wireless__buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.wireless__inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid rgb(156, 156, 156);
+  padding: 5px;
+}
+
+input[type="text"]{
+  width: 300px;
+  height: 30px;
+  margin: 0 10px 8px 10px;
+}
+
+input[type="password"]{
+  width: 300px;
+  height: 30px;
+  margin: 0 10px 8px 10px;
+}
+
+select{
+  width: 243px;
+  height: 30px;
+  margin: 0 10px 8px 10px;
+}
+
+input[type="radio"]:checked{
+  border: 3px solid #5d9fe2;
+}
+
+.button_colored{
+  color: white;
+  padding: 10px 40px;
+  background-color: #5d9fe2;
+  border-radius: 20px;
+  border: none;
+  transition: ease .3s;
+}
+
+.button_colored:hover{
+  background-color: #196bbd;
+  cursor: pointer;
+}
+
+.button_bordered{
+  color: #5d9fe2;
+  background-color: white;
+  width: 110px;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid #5d9fe2;
+  transition: ease .3s;
+}
+
+.button_circle{
+  background-color: #ebe9e9;
+  border: 1px solid #d8d8d8;
+  color: #ffffff;
+  height: 30px;
+  margin-bottom: 9px;
+  margin-right: 10px;
+}
+
+.button_circle:hover{
+  cursor: pointer;
+}
+
+.button_bordered:hover{
+  color: white;
+  border-color: #196bbd;
+  background-color: #196bbd;
+  cursor: pointer;
+}
+
+input:disabled{
+  background-color: white;
+  border: 2px solid #d8d8d8;
+}
+
+.disable-text{
+  color: #d8d8d8;
+}
+
+.wireless__networks{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.wireless__security{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.errors{
+  color: red;
+}
